@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,66 +8,84 @@
     <link rel="stylesheet" href="./css/index.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="navbar">
-        <ul>
-            <li><a href=""></a>About</li>
-            <li><a href=""></a>Work</li>
-            <li><a href=""></a>Contact</li>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
+    </nav>
+
+    <div class="hero">
+        <h1>Hey! we a budding</h1>
+        <p>web developers with Microverse</p>
     </div>
-    <div class="heropage">
-        <h1>Hey I am Mimic</h1>
-        <h3>a web developer</h3>
-    </div>
-    <div class="projects">
-        <h1>These are some of my projects</h1>
-        <div class="image">
-            <a href="#">
-                <img src="./assets/calc.png" alt="calc">
+
+   <div class="projects">
+        <h2 class="title">These are some of my projects</h2>
+        <div class="project-list">
+            <a href="#" target="_blank" class="project">
+                <img class="project-image" src="/assets/calc.png" alt="calc" />
+                <p class="project-title">
+                    Tribute Page
+                </p>
             </a>
-        </div>
-        <div class="image">
-            <a href="#">
-                <img src="./assets/map.jpg" alt="map">
+            <a href="#" target="_blank" class="project">
+                <img class="project-image" src="/assets/map.jpg" alt="map" />
+                <p class="project-title">
+                    Tic Tac Toe Game
+                </p>
             </a>
-        </div>
-        <div class="image">
-            <a href="">
-                <img src="./assets/random-quote-machine.png" alt="machine">
+            <a href="#" target="_blank" class="project">
+                <img class="project-image" src="/assets/random-quote-machine.png" alt="machine" />
+                <p class="project-title">
+                    Map Data Across the Globe 
+                </p>
             </a>
-        </div>
-        <div class="image">
-            <a href="#">
-                <img src="./assets/tic-tac-toe.png" alt="tic-tac">
+            <a href="#" target="_blank" class="project">
+                <img class="project-image" src="/assets/tic-tac-toe.png" alt="tic-tok" />
+                <p class="project-title">
+                    Tic Tac Toe Game
+                </p>
             </a>
-        </div>
-        <div class="image">
-            <a href="">
-                <img src="./assets/tribute.jpg" alt="tribute">
+            <a href="#" target="_blank" class="project">
+                <img class="project-image" src="/assets/tribute.jpg" alt="tribute" />
+                <p class="project-title">
+                    Tribute Page
+                </p>
             </a>
-        </div>
-        <div class="image">
-            <a href="">
-                <img src="./assets/wiki.png" alt="wiki">
+            <a href="#" target="_blank" class="project">
+                <img class="project-image" src="/assets/wiki.png" alt="wiki" />
+                <p class="project-title">
+                    Wikipedia Viewer
+                </p>
             </a>
+            
         </div>
 
-        <button>Show all</button>
-
+        <a href="" class="button">Show all</a>
     </div>
+
+
     <div class="social">
-        <h1>Let's work together...</h1>
-        <h6>How do you take your coffee?</h6>
-        <span><a href="">Facebook</a></span>
-        <span><a href="">GitHub</a></span>
-        <span><a href="">Send a mail</a></span>
-        <span><a href="">Call me</a></span>
+        <div class="social-header">
+            <h2>Let's work together...</h2>
+            <p>How do you take your coffee?</p>
+        </div>
+        <div class="contact-links">
+            <a href="#" class="btn">Facebook</a>
+            <a href="#" class="btn">Twitter</a>
+            <a href="#" class="btn">GitHub</a>
+            <a href="#" class="btn">Send a Mail</a>
+            <a href="#" class="btn">Call Me</a>
+        </div>
+    </div>
 
-    </div>
-    <div class="footer">
-        <span>**This is just a fake portfolio. All the projects and contact details given are not real.</span>
-        <span>&copy; Created for freeCodeCamp </span>
-    </div>
-</body>
+    <footer>
+        <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+        <p>&copy; Created for <a href="#">Microverse</a></p>
+    </footer>
+
 </html>
