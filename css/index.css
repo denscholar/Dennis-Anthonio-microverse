@@ -83,6 +83,7 @@ img {
 }
 .projects{
     background-color: #45567D;
+    position: relative ;
 }
 
 .projects .title {
@@ -96,7 +97,7 @@ img {
     max-width: 520px;
     margin: 0 auto;
   }
-  
+
   @media (max-width: 28.75em) {
     .projects .title {
       font-size: 4rem;
@@ -114,4 +115,28 @@ img {
     text-align: center;
     color: white;
 
+  }
+
+  .button
+  {
+    font-size: 20px ;
+    background-color: #303841 ;
+    display: inline-block ;
+    margin: 0px 0px 20px 0px ;
+    color: white ;
+    padding: 20px 20px 20px 20px ;
+  }
+
+  .button-link
+  {
+      align-content: center ;
+  }
+
+  .center
+  {
+    margin: 0 ;
+    position: absolute ;
+    top:105% ;
+    left: 46% ;
+    right: 40%
   }
